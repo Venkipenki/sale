@@ -31,7 +31,7 @@ The project follows these main steps:
 Install the required packages:
 
 bash
-Copy code
+
 pip install pandas numpy matplotlib statsmodels
 Place your historical sales data in a file named sales_data.csv in the project directory. Make sure the data columns match those used in the provided code.
 
@@ -40,7 +40,7 @@ Open the sales_forecast_arima.py file and modify the code as needed, especially 
 Run the script:
 
 bash
-Copy code
+
 python sales_forecast_arima.py
 Results and Visualization
 The script will generate a plot showing the actual sales, forecasted sales, and prediction intervals. It will also print the calculated forecast accuracy metrics (MAE and RMSE) to the console.
